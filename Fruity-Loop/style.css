@@ -1,0 +1,17 @@
+/* Basic CSS page with plain background and two section with use of flex display */
+body {
+    background-color: rgb(255, 255, 153);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container {
+    display:flex;
+    width: 90%;
+    margin:auto;
+    justify-content: space-evenly;
+    border: 3px solid black;
+}
+
+#col1 , #col2 {
+    line-height: 25px;
+    margin-top: 20px;
+}
